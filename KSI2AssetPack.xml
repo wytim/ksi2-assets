@@ -1,0 +1,101 @@
+<Assets>
+  <Texture Id="KSI2AtmoFill" Path="assets/atmosphere/Atmo-BG-fill.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2OrbitFill" Path="assets/orbital-readout/Frame-6px-rad-fill_0.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2OrbitBorder" Path="assets/orbital-readout/Frame-6px-rad-border_0.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2OrbitBracket" Path="assets/orbital-readout/Frame-6px-rad-bracket-BB.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2AtmoLayers" Path="assets/atmosphere/Atmo-ELE-AtmoLayers.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2AtmoBorder" Path="assets/atmosphere/Atmo-ELE-Border.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2AtmoBracket" Path="assets/atmosphere/Atmo-ELE-Bracket.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2AtmoNeedleMask" Path="assets/atmosphere/Atmo-MSK-Needle.png" />
+  <Texture Id="KSI2AtmoNeedle" Path="assets/atmosphere/VertSpeed-ELE-Needle.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2AtmoRocket" Path="assets/atmosphere/Atmo-ELE-Rocket.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2AtmoRocketThrust" Path="assets/atmosphere/Atmo-ELE-Rocket-Thrust.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2AtmoShade" Path="assets/atmosphere/Atmo-MSK-Needle-Shade.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2VertSpeedColors" Path="assets/atmosphere/Cluster-RightInfo-VertSpeed-Colors.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2VertSpeedNumbers" Path="assets/atmosphere/Cluster-RightInfo-VertSpeed-Numbers.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2ThrottleBG" Path="assets/throttle/Throttle-BG.png" />
+  <Texture Id="KSI2ThrottleBars" Path="assets/throttle/Throttle-ELE-Bars.png" />
+  <Texture Id="KSI2ThrottleBorder" Path="assets/throttle/Throttle-BG-Border.png" />
+  <Texture Id="KSI2ThrottleBracket" Path="assets/throttle/Throttle-BG-Bracket.png" />
+  <Texture Id="KSI2ThrottleHandle" Path="assets/throttle/Throttle-ELE-Handle.png" />
+  <Texture Id="KSI2ThrottlePercentGlyph" Path="assets/throttle/Throttle-ELE-PercentGlyph.png" />
+  <Texture Id="KSI2ThrottleFill" Path="assets/throttle/Throttle-ELE-Fill.png" />
+  <Texture Id="KSI2NavballSurface" Path="assets/navball/Flight-Navball-Texture.png">
+    <Manifest>
+      <MipMaps>true</MipMaps>
+    </Manifest>
+  </Texture>
+  <Texture Id="KSI2NavballOrbit" Path="assets/navball/Flight-Navball-Texture_Orbit.png">
+    <Manifest>
+      <MipMaps>true</MipMaps>
+    </Manifest>
+  </Texture>
+  <Texture Id="KSI2NavballTargetMode" Path="assets/navball/Flight-Navball-Texture_Target.png">
+    <Manifest>
+      <MipMaps>true</MipMaps>
+    </Manifest>
+  </Texture>
+  <Texture Id="KSI2NavballShadow" Path="assets/navball/Flight-Navball-Shadow.png">
+    <Manifest>
+      <MipMaps>false</MipMaps>
+    </Manifest>
+  </Texture>
+  <Texture Id="KSI2NavballClusterBackground" Path="assets/navball/Mask-Cluster-BG.png" />
+  <Texture Id="KSI2NavballClusterBorder" Path="assets/navball/Flight-Cluster-BG.png" />
+  <Texture Id="KSI2NavballCrosshair" Path="assets/navball/Flight-Navball-Crosshair.png" />
+  <Texture Id="KSI2NavballPrograde" Path="assets/navball/ICO-Navball-Prograde.png" />
+  <Texture Id="KSI2NavballRetrograde" Path="assets/navball/ICO-Navball-Retrograde.png" />
+  <Texture Id="KSI2NavballTarget" Path="assets/navball/ICO-Navball-Target.png" />
+  <Texture Id="KSI2NavballAntiTarget" Path="assets/navball/ICO-Navball-AntiTarget.png" />
+  <Texture Id="KSI2NavballNormal" Path="assets/navball/ICO-Navball-Normal.png" />
+  <Texture Id="KSI2NavballAntiNormal" Path="assets/navball/ICO-Navball-AntiNormal.png" />
+  <Texture Id="KSI2NavballRadialOut" Path="assets/navball/ICO-Navball-RadialOut.png" />
+  <Texture Id="KSI2NavballRadialIn" Path="assets/navball/ICO-Navball-RadialIn.png" />
+  <Texture Id="KSI2NavballManeuver" Path="assets/navball/ICO-Navball-Maneuver.png" />
+  <Texture Id="KSI2HeadingMask" Path="assets/navball/Cluster-Dial-MSK.png" />
+  <Texture Id="KSI2HeadingBackground" Path="assets/navball/Cluster-Dial-BG.png" />
+  <Texture Id="KSI2HeadingTicks" Path="assets/navball/Cluster-Dial-Heading-ticks.png" />
+  <Texture Id="KSI2HeadingNumbers" Path="assets/navball/Cluster-Dial-Heading-numbers.png" />
+  <Texture Id="KSI2HeadingCardinals" Path="assets/navball/Cluster-Dial-Heading-cardinal.png" />
+  <Texture Id="KSI2HeadingFrame" Path="assets/navball/Cluster-Dial-Frame-ELE.png" />
+  <Texture Id="KSI2HeadingReadout" Path="assets/navball/Flight-Readout-Heading-BG.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2SideDialNumberHashes" Path="assets/navball/Cluster-Dial-EmDash-ELE.png" />
+  <Texture Id="KSI2SideDialSmallHashes" Path="assets/navball/Cluster-Dial-Tick-ELE.png" />
+  <Texture Id="KSI2VelocityDialFrame" Path="assets/navball/Flight-Dial-FG.png" />
+  <Texture Id="KSI2SpeedBackground" Path="assets/navball/Flight-Readout-BG.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2SpeedModeTile" Path="assets/navball/TILE-LCD-10px-11pt.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2SpeedUnitsTile" Path="assets/navball/TILE-LCD-10px-14pt.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2SpeedSurface" Path="assets/navball/ICO-Tiny-Surface_0.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2SpeedOrbit" Path="assets/navball/ICO-Tiny-Orbit.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2SpeedTarget" Path="assets/navball/ICO-Tiny-Target_0.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2AltitudeBackground" Path="assets/navball/Flight-Readout-BG.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2AltitudeModeTile" Path="assets/navball/TILE-LCD-10px-11pt.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2AltitudeUnitsTile" Path="assets/navball/TILE-LCD-10px-14pt.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2AltitudeSeaLevel" Path="assets/navball/ICO-Tiny-SeaLevel.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2AltitudeGround" Path="assets/navball/ICO-Tiny-Ground.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2BottomToggleOutline" Path="assets/navball/Button-Digital-Large-Outline-Dot.png" />
+  <Texture Id="KSI2BottomObjectCycle" Path="assets/navball/ICO-Flight-Cluster-ObjectCycle.png" />
+  <Texture Id="KSI2BottomCommNet" Path="assets/navball/ICO-Flight-Cluster-Commnet.png" />
+  <Sound Id="KSI2SasRcsHover" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/SasRcsHover.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2SasRcsEnable" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/SasRcsEnable.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2SasRcsDisable" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/SasRcsDisable.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2SpeedModeHover" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/SpeedModeHover.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2SpeedModeSelect" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/SpeedModeSelect.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2AltitudeModeHover" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/AltitudeModeHover.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2AltitudeModeSelect" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/AltitudeModeSelect.wav" TwoD="true" />
+  </Sound>
+
+</Assets>

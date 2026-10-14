@@ -1,0 +1,686 @@
+﻿{
+    "sourcePrefab":  "group_throttle.prefab",
+    "logicalSize":  {
+                        "height":  290,
+                        "width":  85
+                    },
+    "rootLayout":  {
+                       "position":  "90,141.2",
+                       "prefab":  "group_throttle",
+                       "anchor":  "bottom-left",
+                       "hierarchyId":  "22",
+                       "pivot":  "0.5,0.5",
+                       "size":  "147.7,282.5"
+                   },
+    "widgetLayout":  {
+                         "position":  "-9.849976,-4.25",
+                         "hierarchy":  "group_throttle/Container/widget_slider_throttle_vertical/Bound UI - Throttle",
+                         "size":  "85,290",
+                         "pivot":  "0,0"
+                     },
+    "layerOrder":  [
+                       "BG-Throttle-Ticks",
+                       "ELE-BG",
+                       "ELE-Border",
+                       "ELE-Bracket",
+                       "MSK-progress bar",
+                       "MSK-circle",
+                       "ELE-percent",
+                       "BG-Throttle-Handle",
+                       "BG-Throttle-Handle (1)"
+                   ],
+    "serializedFill":  {
+                           "size":  "416,416",
+                           "origin":  "Bottom",
+                           "rotationDegrees":  -44,
+                           "mask":  "MSK-progress bar",
+                           "color":  "#00FF66",
+                           "object":  "MSK-circle",
+                           "maskOperation":  "stencil alpha test, not alpha multiplication",
+                           "method":  "Radial360",
+                           "quaternion":  {
+                                              "w":  0.9271839,
+                                              "z":  -0.37460646
+                                          },
+                           "showMaskGraphic":  false,
+                           "normalizedFill":  "throttle / 4",
+                           "clockwise":  true,
+                           "centerInWidgetScreenCoordinates":  "204.5,145"
+                       },
+    "handlePath":  [
+                       {
+                           "y":  21,
+                           "rotation":  -140,
+                           "throttle":  0,
+                           "x":  10
+                       },
+                       {
+                           "y":  8,
+                           "rotation":  -146,
+                           "throttle":  0.1,
+                           "x":  -2
+                       },
+                       {
+                           "y":  7,
+                           "rotation":  -154,
+                           "throttle":  0.2,
+                           "x":  -16
+                       },
+                       {
+                           "y":  6,
+                           "rotation":  -165,
+                           "throttle":  0.3,
+                           "x":  -26
+                       },
+                       {
+                           "y":  5,
+                           "rotation":  -173,
+                           "throttle":  0.4,
+                           "x":  -32
+                       },
+                       {
+                           "y":  0,
+                           "rotation":  -180,
+                           "throttle":  0.5,
+                           "x":  -33
+                       },
+                       {
+                           "y":  -5,
+                           "rotation":  -187,
+                           "throttle":  0.6,
+                           "x":  -32
+                       },
+                       {
+                           "y":  -6,
+                           "rotation":  -195,
+                           "throttle":  0.7,
+                           "x":  -26
+                       },
+                       {
+                           "y":  -7,
+                           "rotation":  -206,
+                           "throttle":  0.8,
+                           "x":  -16
+                       },
+                       {
+                           "y":  -8,
+                           "rotation":  -214,
+                           "throttle":  0.9,
+                           "x":  -2
+                       },
+                       {
+                           "y":  -21,
+                           "rotation":  -220,
+                           "throttle":  1,
+                           "x":  10
+                       }
+                   ],
+    "handleTransform":  {
+                            "pixelsPerUnit":  200,
+                            "localQuaternion":  {
+                                                    "w":  0,
+                                                    "z":  1
+                                                },
+                            "sprite":  "Throttle-ELE-Handle.png",
+                            "spriteRect":  "x=0,y=0.076120496,width=120.92388,height=67.84776",
+                            "localRotationDegrees":  180,
+                            "rect":  {
+                                         "width":  65,
+                                         "height":  34,
+                                         "pivot":  "0.5,0.5"
+                                     },
+                            "effectiveVisualRotation":  "path quaternion plus child 180 degree quaternion"
+                        },
+    "handleHierarchy":  [
+                            {
+                                "object":  "Binding - Throttle Slider",
+                                "rotation":  "m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}",
+                                "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                "anchorMin":  "m_AnchorMin: {x: 0, y: 0}",
+                                "anchorMax":  "m_AnchorMax: {x: 0, y: 0}",
+                                "anchoredPosition":  "m_AnchoredPosition: {x: 0, y: 0}",
+                                "size":  "m_SizeDelta: {x: 85, y: 290}",
+                                "pivot":  "m_Pivot: {x: 0, y: 0}"
+                            },
+                            {
+                                "object":  "SliderHandleYPosition",
+                                "rotation":  "m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}",
+                                "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                "anchorMin":  "m_AnchorMin: {x: 0, y: 0}",
+                                "anchorMax":  "m_AnchorMax: {x: 0, y: 0}",
+                                "anchoredPosition":  "m_AnchoredPosition: {x: 0, y: 0}",
+                                "size":  "m_SizeDelta: {x: 0, y: 0}",
+                                "pivot":  "m_Pivot: {x: 0.5, y: 1.0000001}"
+                            },
+                            {
+                                "object":  "Binding - HandleXPosition",
+                                "rotation":  "m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}",
+                                "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                "anchorMin":  "m_AnchorMin: {x: 0.5, y: 0.5}",
+                                "anchorMax":  "m_AnchorMax: {x: 0.5, y: 0.5}",
+                                "anchoredPosition":  "m_AnchoredPosition: {x: 0, y: 0}",
+                                "size":  "m_SizeDelta: {x: 85, y: 85}",
+                                "pivot":  "m_Pivot: {x: 0.5, y: 0.5}"
+                            },
+                            {
+                                "object":  "HandleXPositionNodes",
+                                "rotation":  "m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}",
+                                "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                "anchorMin":  "m_AnchorMin: {x: 0.5, y: 0.5}",
+                                "anchorMax":  "m_AnchorMax: {x: 0.5, y: 0.5}",
+                                "anchoredPosition":  "m_AnchoredPosition: {x: 0, y: 0}",
+                                "size":  "m_SizeDelta: {x: 85, y: 85}",
+                                "pivot":  "m_Pivot: {x: 0.5, y: 0.5}"
+                            },
+                            {
+                                "object":  "SliderHandle",
+                                "rotation":  "m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}",
+                                "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                "anchorMin":  "m_AnchorMin: {x: 0.5, y: 0}",
+                                "anchorMax":  "m_AnchorMax: {x: 0.5, y: 0}",
+                                "anchoredPosition":  "m_AnchoredPosition: {x: 0, y: 0}",
+                                "size":  "m_SizeDelta: {x: 25, y: 10}",
+                                "pivot":  "m_Pivot: {x: 0, y: 0}"
+                            },
+                            {
+                                "object":  "handle_hitarea",
+                                "rotation":  "m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}",
+                                "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                "anchorMin":  "m_AnchorMin: {x: 0.5, y: 0.5}",
+                                "anchorMax":  "m_AnchorMax: {x: 0.5, y: 0.5}",
+                                "anchoredPosition":  "m_AnchoredPosition: {x: 0, y: 0}",
+                                "size":  "m_SizeDelta: {x: 60, y: 40}",
+                                "pivot":  "m_Pivot: {x: 0.5, y: 0.5}"
+                            },
+                            {
+                                "object":  "BG-Throttle-Handle",
+                                "rotation":  "m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}",
+                                "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                "anchorMin":  "m_AnchorMin: {x: 0.5, y: 0.5}",
+                                "anchorMax":  "m_AnchorMax: {x: 0.5, y: 0.5}",
+                                "anchoredPosition":  "m_AnchoredPosition: {x: 0, y: 0}",
+                                "size":  "m_SizeDelta: {x: 65, y: 34}",
+                                "pivot":  "m_Pivot: {x: 0.5, y: 0.5}"
+                            }
+                        ],
+    "originalUnityRotationCorrection":  "Prefab quaternions are authoritative; Unity Z angles unwrap continuously from -140 through -180 to -220 degrees. Earlier Euler hints with opposite sign are not used.",
+    "layers":  [
+                   {
+                       "object":  "BG-Throttle-Ticks",
+                       "spriteGuid":  "242e22882dd2dce4fa7ca482b38e2289",
+                       "sprite":  {
+                                      "name":  "Throttle-BG",
+                                      "file":  "Throttle-BG.asset",
+                                      "texture":  "Throttle-BG.png",
+                                      "textureGuid":  "6ac841521692305458aa12258deb7edc",
+                                      "rect":  {
+                                                   "x":  0,
+                                                   "y":  0,
+                                                   "width":  170,
+                                                   "height":  580
+                                               },
+                                      "offset":  "m_Offset: {x: 0, y: 0}",
+                                      "pivot":  "m_Pivot: {x: 0.5, y: 0.5}",
+                                      "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                  },
+                       "tint":  "m_Color: {r: 0.14117648, g: 0.14901961, b: 0.18431373, a: 0.99215686}",
+                       "imageType":  "m_Type: 0",
+                       "fillAmount":  "m_FillAmount: 1",
+                       "transform":  {
+                                         "object":  "BG-Throttle-Ticks",
+                                         "rotation":  "m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}",
+                                         "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                         "anchorMin":  "m_AnchorMin: {x: 0, y: 0}",
+                                         "anchorMax":  "m_AnchorMax: {x: 1, y: 1}",
+                                         "anchoredPosition":  "m_AnchoredPosition: {x: 0, y: 0}",
+                                         "size":  "m_SizeDelta: {x: 0, y: 0}",
+                                         "pivot":  "m_Pivot: {x: 2.9802322E-08, y: -7.450581E-09}"
+                                     }
+                   },
+                   {
+                       "object":  "ELE-BG",
+                       "spriteGuid":  "eafce7dcfaee61540a0d7a6ed2ff51e7",
+                       "sprite":  {
+                                      "name":  "Throttle-ELE-Bars",
+                                      "file":  "Throttle-ELE-Bars.asset",
+                                      "texture":  "Throttle-ELE-Bars.png",
+                                      "textureGuid":  "9c567e9fbcbb2a34b9fba5c8b20b1c78",
+                                      "rect":  {
+                                                   "x":  14.07612,
+                                                   "y":  17.02675,
+                                                   "width":  139.8575,
+                                                   "height":  545.92194
+                                               },
+                                      "offset":  "m_Offset: {x: 0.9951287, y: 0.012267385}",
+                                      "pivot":  "m_Pivot: {x: 0.5071153, y: 0.5000225}",
+                                      "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                  },
+                       "tint":  "m_Color: {r: 0.24411765, g: 0.25588238, b: 0.6, a: 1}",
+                       "imageType":  "m_Type: 0",
+                       "fillAmount":  "m_FillAmount: 1",
+                       "transform":  {
+                                         "object":  "ELE-BG",
+                                         "rotation":  "m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}",
+                                         "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                         "anchorMin":  "m_AnchorMin: {x: 0, y: 0}",
+                                         "anchorMax":  "m_AnchorMax: {x: 1, y: 1}",
+                                         "anchoredPosition":  "m_AnchoredPosition: {x: 0, y: 0}",
+                                         "size":  "m_SizeDelta: {x: 0, y: 0}",
+                                         "pivot":  "m_Pivot: {x: 2.9802322E-08, y: -7.450581E-09}"
+                                     }
+                   },
+                   {
+                       "object":  "ELE-Border",
+                       "spriteGuid":  "768acba9d77ce194c8790c776d8b45a6",
+                       "sprite":  {
+                                      "name":  "Throttle-BG-Border",
+                                      "file":  "Throttle-BG-Border.asset",
+                                      "texture":  "Throttle-BG-Border.png",
+                                      "textureGuid":  "07f6bf6d620b0674198f65b0c3c2ca20",
+                                      "rect":  {
+                                                   "x":  2.0761204,
+                                                   "y":  3.026751,
+                                                   "width":  164.89713,
+                                                   "height":  573.94653
+                                               },
+                                      "offset":  "m_Offset: {x: 0.4753226, y: -3.420988E-05}",
+                                      "pivot":  "m_Pivot: {x: 0.50288254, y: 0.49999994}",
+                                      "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                  },
+                       "tint":  "m_Color: {r: 0.1620915, g: 0.16993465, b: 0.4, a: 1}",
+                       "imageType":  "m_Type: 0",
+                       "fillAmount":  "m_FillAmount: 1",
+                       "transform":  {
+                                         "object":  "ELE-Border",
+                                         "rotation":  "m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}",
+                                         "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                         "anchorMin":  "m_AnchorMin: {x: 0, y: 0}",
+                                         "anchorMax":  "m_AnchorMax: {x: 1, y: 1}",
+                                         "anchoredPosition":  "m_AnchoredPosition: {x: 0, y: 0}",
+                                         "size":  "m_SizeDelta: {x: 0, y: 0}",
+                                         "pivot":  "m_Pivot: {x: 2.9802322E-08, y: -7.450581E-09}"
+                                     }
+                   },
+                   {
+                       "object":  "ELE-Bracket",
+                       "spriteGuid":  "c2ac051886cfcf047971a52bf560585d",
+                       "sprite":  {
+                                      "name":  "Throttle-BG-Bracket",
+                                      "file":  "Throttle-BG-Bracket.asset",
+                                      "texture":  "Throttle-BG-Bracket.png",
+                                      "textureGuid":  "e33a32e004deec9498d3a181cce43000",
+                                      "rect":  {
+                                                   "x":  107.07612,
+                                                   "y":  3.026751,
+                                                   "width":  59.897133,
+                                                   "height":  573.94653
+                                               },
+                                      "offset":  "m_Offset: {x: -52.024685, y: -3.420988E-05}",
+                                      "pivot":  "m_Pivot: {x: -0.3685672, y: 0.49999994}",
+                                      "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                  },
+                       "tint":  "m_Color: {r: 0.413, g: 0.4293055, b: 1, a: 1}",
+                       "imageType":  "m_Type: 0",
+                       "fillAmount":  "m_FillAmount: 1",
+                       "transform":  {
+                                         "object":  "ELE-Bracket",
+                                         "rotation":  "m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}",
+                                         "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                         "anchorMin":  "m_AnchorMin: {x: 0, y: 0}",
+                                         "anchorMax":  "m_AnchorMax: {x: 1, y: 1}",
+                                         "anchoredPosition":  "m_AnchoredPosition: {x: 0, y: 0}",
+                                         "size":  "m_SizeDelta: {x: 0, y: 0}",
+                                         "pivot":  "m_Pivot: {x: 2.9802322E-08, y: -7.450581E-09}"
+                                     }
+                   },
+                   {
+                       "object":  "MSK-progress bar",
+                       "spriteGuid":  "3ad3a17e42ac16c4f9139a48a0c64ef9",
+                       "sprite":  {
+                                      "name":  "Throttle-MSK-Bars 1",
+                                      "file":  "Throttle-MSK-Bars 1.asset",
+                                      "texture":  "Throttle-MSK-Bars 1.png",
+                                      "textureGuid":  "ea52d519168514c429599fb5f519c8c7",
+                                      "rect":  {
+                                                   "x":  14.07612,
+                                                   "y":  17.02675,
+                                                   "width":  139.8575,
+                                                   "height":  545.92194
+                                               },
+                                      "offset":  "m_Offset: {x: 0.9951287, y: 0.012267385}",
+                                      "pivot":  "m_Pivot: {x: 0.5071153, y: 0.5000225}",
+                                      "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                  },
+                       "tint":  "m_Color: {r: 0.81960785, g: 0.08627451, b: 0.03137255, a: 1}",
+                       "imageType":  "m_Type: 0",
+                       "fillAmount":  "m_FillAmount: 1",
+                       "transform":  {
+                                         "object":  "MSK-progress bar",
+                                         "rotation":  "m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}",
+                                         "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                         "anchorMin":  "m_AnchorMin: {x: 0, y: 0}",
+                                         "anchorMax":  "m_AnchorMax: {x: 1, y: 1}",
+                                         "anchoredPosition":  "m_AnchoredPosition: {x: 0, y: 0}",
+                                         "size":  "m_SizeDelta: {x: 0, y: 0}",
+                                         "pivot":  "m_Pivot: {x: 0.5, y: 0.5}"
+                                     }
+                   },
+                   {
+                       "object":  "MSK-circle",
+                       "spriteGuid":  "e24f6dc41f3e5f340b5936ee9e3f5f83",
+                       "sprite":  {
+                                      "name":  "Throttle-MSK-Radial",
+                                      "file":  "Throttle-MSK-Radial.asset",
+                                      "texture":  "Throttle-MSK-Radial.png",
+                                      "textureGuid":  "10c69ce569f5cec44b1ea38e2d1fe44e",
+                                      "rect":  {
+                                                   "x":  0,
+                                                   "y":  0,
+                                                   "width":  832,
+                                                   "height":  832
+                                               },
+                                      "offset":  "m_Offset: {x: 0, y: 0}",
+                                      "pivot":  "m_Pivot: {x: 0.5, y: 0.5}",
+                                      "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                  },
+                       "tint":  "m_Color: {r: 0, g: 1, b: 0.4, a: 1}",
+                       "imageType":  "m_Type: 3",
+                       "fillAmount":  "m_FillAmount: 0.25",
+                       "transform":  {
+                                         "object":  "MSK-circle",
+                                         "rotation":  "m_LocalRotation: {x: 0, y: 0, z: -0.37460646, w: 0.9271839}",
+                                         "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                         "anchorMin":  "m_AnchorMin: {x: 0.5, y: 0.5}",
+                                         "anchorMax":  "m_AnchorMax: {x: 0.5, y: 0.5}",
+                                         "anchoredPosition":  "m_AnchoredPosition: {x: 162, y: 0}",
+                                         "size":  "m_SizeDelta: {x: 416, y: 416}",
+                                         "pivot":  "m_Pivot: {x: 0.5, y: 0.5}"
+                                     }
+                   },
+                   {
+                       "object":  "BG-Throttle-Handle",
+                       "spriteGuid":  "b2f04d47d99414d4f918c9365ccf2f2f",
+                       "sprite":  {
+                                      "name":  "Throttle-ELE-Handle",
+                                      "file":  "Throttle-ELE-Handle.asset",
+                                      "texture":  "Throttle-ELE-Handle.png",
+                                      "textureGuid":  "017e2853fa84a1b459bb61ca247bb4d9",
+                                      "rect":  {
+                                                   "x":  0,
+                                                   "y":  0.076120496,
+                                                   "width":  120.92388,
+                                                   "height":  67.84776
+                                               },
+                                      "offset":  "m_Offset: {x: 4.538058, y: -4.044042E-06}",
+                                      "pivot":  "m_Pivot: {x: 0.5375282, y: 0.49999994}",
+                                      "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                  },
+                       "tint":  "m_Color: {r: 1, g: 1, b: 1, a: 1}",
+                       "imageType":  "m_Type: 0",
+                       "fillAmount":  "m_FillAmount: 1",
+                       "transform":  {
+                                         "object":  "BG-Throttle-Handle",
+                                         "rotation":  "m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}",
+                                         "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                         "anchorMin":  "m_AnchorMin: {x: 0.5, y: 0.5}",
+                                         "anchorMax":  "m_AnchorMax: {x: 0.5, y: 0.5}",
+                                         "anchoredPosition":  "m_AnchoredPosition: {x: 0, y: 0}",
+                                         "size":  "m_SizeDelta: {x: 65, y: 34}",
+                                         "pivot":  "m_Pivot: {x: 0.5, y: 0.5}"
+                                     }
+                   },
+                   {
+                       "object":  "BG-Throttle-Handle (1)",
+                       "spriteGuid":  "76dc9abf4f249834087969f4db5576c7",
+                       "sprite":  {
+                                      "name":  "Throttle-Handle-ELE",
+                                      "file":  "Throttle-Handle-ELE.asset",
+                                      "texture":  "Throttle-Handle-ELE.png",
+                                      "textureGuid":  "8bff9662294c3c949b3ef9b2dd142c30",
+                                      "rect":  {
+                                                   "x":  0,
+                                                   "y":  0,
+                                                   "width":  100,
+                                                   "height":  70
+                                               },
+                                      "offset":  "m_Offset: {x: 0, y: 0}",
+                                      "pivot":  "m_Pivot: {x: 0.5, y: 0.5}",
+                                      "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                  },
+                       "tint":  "m_Color: {r: 1, g: 1, b: 1, a: 1}",
+                       "imageType":  "m_Type: 0",
+                       "fillAmount":  "m_FillAmount: 1",
+                       "transform":  {
+                                         "object":  "BG-Throttle-Handle (1)",
+                                         "rotation":  "m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}",
+                                         "scale":  "m_LocalScale: {x: 1, y: 1, z: 1}",
+                                         "anchorMin":  "m_AnchorMin: {x: 0.5, y: 0.5}",
+                                         "anchorMax":  "m_AnchorMax: {x: 0.5, y: 0.5}",
+                                         "anchoredPosition":  "m_AnchoredPosition: {x: 1.7166138E-05, y: 2.0980835E-05}",
+                                         "size":  "m_SizeDelta: {x: 54, y: 35}",
+                                         "pivot":  "m_Pivot: {x: 0.5, y: 0.5}"
+                                     }
+                   }
+               ],
+    "textures":  [
+                     {
+                         "name":  "Throttle-BG.png",
+                         "width":  170,
+                         "height":  580,
+                         "source":  "Texture2D/Throttle-BG.png"
+                     },
+                     {
+                         "name":  "Throttle-BG-Border.png",
+                         "width":  170,
+                         "height":  580,
+                         "source":  "Texture2D/Throttle-BG-Border.png"
+                     },
+                     {
+                         "name":  "Throttle-BG-Bracket.png",
+                         "width":  170,
+                         "height":  580,
+                         "source":  "Texture2D/Throttle-BG-Bracket.png"
+                     },
+                     {
+                         "name":  "Throttle-ELE-Bars.png",
+                         "width":  170,
+                         "height":  580,
+                         "source":  "Texture2D/Throttle-ELE-Bars.png"
+                     },
+                     {
+                         "name":  "Throttle-MSK-Bars 1.png",
+                         "width":  170,
+                         "height":  580,
+                         "source":  "Texture2D/Throttle-MSK-Bars 1.png"
+                     },
+                     {
+                         "name":  "Throttle-MSK-Radial.png",
+                         "width":  832,
+                         "height":  832,
+                         "source":  "Texture2D/Throttle-MSK-Radial.png"
+                     },
+                     {
+                         "name":  "Throttle-ELE-Handle.png",
+                         "width":  130,
+                         "height":  68,
+                         "source":  "Texture2D/Throttle-ELE-Handle.png"
+                     },
+                     {
+                         "name":  "Throttle-Handle-ELE.png",
+                         "width":  100,
+                         "height":  70,
+                         "source":  "Texture2D/Throttle-Handle-ELE.png"
+                     },
+                     {
+                         "name":  "Throttle-ELE-Fill.png",
+                         "width":  170,
+                         "height":  580,
+                         "source":  "derived from Throttle-MSK-Bars 1 and Throttle-MSK-Radial with bilinear radial sampling"
+                     },
+                     {
+                         "name":  "Throttle-ELE-PercentGlyph.png",
+                         "width":  30,
+                         "height":  41,
+                         "source":  "TMP font sbliquid-open1 SDF, Unicode 37, atlas rectangle 725,6,30,41"
+                     }
+                 ],
+    "sprites":  {
+                    "242e22882dd2dce4fa7ca482b38e2289":  {
+                                                             "name":  "Throttle-BG",
+                                                             "file":  "Throttle-BG.asset",
+                                                             "texture":  "Throttle-BG.png",
+                                                             "textureGuid":  "6ac841521692305458aa12258deb7edc",
+                                                             "rect":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "width":  170,
+                                                                          "height":  580
+                                                                      },
+                                                             "offset":  "m_Offset: {x: 0, y: 0}",
+                                                             "pivot":  "m_Pivot: {x: 0.5, y: 0.5}",
+                                                             "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                                         },
+                    "c2ac051886cfcf047971a52bf560585d":  {
+                                                             "name":  "Throttle-BG-Bracket",
+                                                             "file":  "Throttle-BG-Bracket.asset",
+                                                             "texture":  "Throttle-BG-Bracket.png",
+                                                             "textureGuid":  "e33a32e004deec9498d3a181cce43000",
+                                                             "rect":  {
+                                                                          "x":  107.07612,
+                                                                          "y":  3.026751,
+                                                                          "width":  59.897133,
+                                                                          "height":  573.94653
+                                                                      },
+                                                             "offset":  "m_Offset: {x: -52.024685, y: -3.420988E-05}",
+                                                             "pivot":  "m_Pivot: {x: -0.3685672, y: 0.49999994}",
+                                                             "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                                         },
+                    "768acba9d77ce194c8790c776d8b45a6":  {
+                                                             "name":  "Throttle-BG-Border",
+                                                             "file":  "Throttle-BG-Border.asset",
+                                                             "texture":  "Throttle-BG-Border.png",
+                                                             "textureGuid":  "07f6bf6d620b0674198f65b0c3c2ca20",
+                                                             "rect":  {
+                                                                          "x":  2.0761204,
+                                                                          "y":  3.026751,
+                                                                          "width":  164.89713,
+                                                                          "height":  573.94653
+                                                                      },
+                                                             "offset":  "m_Offset: {x: 0.4753226, y: -3.420988E-05}",
+                                                             "pivot":  "m_Pivot: {x: 0.50288254, y: 0.49999994}",
+                                                             "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                                         },
+                    "eafce7dcfaee61540a0d7a6ed2ff51e7":  {
+                                                             "name":  "Throttle-ELE-Bars",
+                                                             "file":  "Throttle-ELE-Bars.asset",
+                                                             "texture":  "Throttle-ELE-Bars.png",
+                                                             "textureGuid":  "9c567e9fbcbb2a34b9fba5c8b20b1c78",
+                                                             "rect":  {
+                                                                          "x":  14.07612,
+                                                                          "y":  17.02675,
+                                                                          "width":  139.8575,
+                                                                          "height":  545.92194
+                                                                      },
+                                                             "offset":  "m_Offset: {x: 0.9951287, y: 0.012267385}",
+                                                             "pivot":  "m_Pivot: {x: 0.5071153, y: 0.5000225}",
+                                                             "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                                         },
+                    "3ad3a17e42ac16c4f9139a48a0c64ef9":  {
+                                                             "name":  "Throttle-MSK-Bars 1",
+                                                             "file":  "Throttle-MSK-Bars 1.asset",
+                                                             "texture":  "Throttle-MSK-Bars 1.png",
+                                                             "textureGuid":  "ea52d519168514c429599fb5f519c8c7",
+                                                             "rect":  {
+                                                                          "x":  14.07612,
+                                                                          "y":  17.02675,
+                                                                          "width":  139.8575,
+                                                                          "height":  545.92194
+                                                                      },
+                                                             "offset":  "m_Offset: {x: 0.9951287, y: 0.012267385}",
+                                                             "pivot":  "m_Pivot: {x: 0.5071153, y: 0.5000225}",
+                                                             "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                                         },
+                    "76dc9abf4f249834087969f4db5576c7":  {
+                                                             "name":  "Throttle-Handle-ELE",
+                                                             "file":  "Throttle-Handle-ELE.asset",
+                                                             "texture":  "Throttle-Handle-ELE.png",
+                                                             "textureGuid":  "8bff9662294c3c949b3ef9b2dd142c30",
+                                                             "rect":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "width":  100,
+                                                                          "height":  70
+                                                                      },
+                                                             "offset":  "m_Offset: {x: 0, y: 0}",
+                                                             "pivot":  "m_Pivot: {x: 0.5, y: 0.5}",
+                                                             "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                                         },
+                    "e24f6dc41f3e5f340b5936ee9e3f5f83":  {
+                                                             "name":  "Throttle-MSK-Radial",
+                                                             "file":  "Throttle-MSK-Radial.asset",
+                                                             "texture":  "Throttle-MSK-Radial.png",
+                                                             "textureGuid":  "10c69ce569f5cec44b1ea38e2d1fe44e",
+                                                             "rect":  {
+                                                                          "x":  0,
+                                                                          "y":  0,
+                                                                          "width":  832,
+                                                                          "height":  832
+                                                                      },
+                                                             "offset":  "m_Offset: {x: 0, y: 0}",
+                                                             "pivot":  "m_Pivot: {x: 0.5, y: 0.5}",
+                                                             "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                                         },
+                    "b2f04d47d99414d4f918c9365ccf2f2f":  {
+                                                             "name":  "Throttle-ELE-Handle",
+                                                             "file":  "Throttle-ELE-Handle.asset",
+                                                             "texture":  "Throttle-ELE-Handle.png",
+                                                             "textureGuid":  "017e2853fa84a1b459bb61ca247bb4d9",
+                                                             "rect":  {
+                                                                          "x":  0,
+                                                                          "y":  0.076120496,
+                                                                          "width":  120.92388,
+                                                                          "height":  67.84776
+                                                                      },
+                                                             "offset":  "m_Offset: {x: 4.538058, y: -4.044042E-06}",
+                                                             "pivot":  "m_Pivot: {x: 0.5375282, y: 0.49999994}",
+                                                             "pixelsPerUnit":  "m_PixelsToUnits: 200"
+                                                         }
+                },
+    "inactiveAlternateHandle":  {
+                                    "prefabObject":  "BG-Throttle-Handle (1)",
+                                    "sprite":  "Throttle-Handle-ELE.png",
+                                    "rendered":  false
+                                },
+    "percentGlyph":  {
+                         "glyphIndex":  758,
+                         "logicalSize":  "13.22,18.07",
+                         "rasterScale":  0.9,
+                         "displaySize":  "11.898,16.263",
+                         "approximateLogicalTopLeft":  "54.551,253.369",
+                         "sourceRectTransform":  {
+                                                     "parent":  "BG-Throttle-Ticks",
+                                                     "anchorMin":  "1,0",
+                                                     "anchorMax":  "1,0",
+                                                     "anchoredPosition":  "-12,16",
+                                                     "sizeDelta":  "25,25",
+                                                     "pivot":  "1,0",
+                                                     "localRotationDegrees":  0
+                                                 },
+                         "sourceWidgetBounds":  {
+                                                    "topLeft":  "48,249",
+                                                    "size":  "25,25",
+                                                    "center":  "60.5,261.5"
+                                                },
+                         "rectangle":  {
+                                           "y":  6,
+                                           "width":  30,
+                                           "height":  41,
+                                           "x":  725
+                                       },
+                         "tint":  "#101114",
+                         "atlas":  "sbliquid-open1 SDF Atlas.png",
+                         "sdfAlphaTransfer":  "clamp((alpha - 79) / 97, 0, 1)",
+                         "unicode":  37,
+                         "font":  "sbliquid-open1 SDF"
+                     }
+}
