@@ -98,4 +98,37 @@
     <SoundFile Path="assets/sounds/AltitudeModeSelect.wav" TwoD="true" />
   </Sound>
 
+  <Texture Id="KSI2DirectionSelectorBG" Path="assets/direction-selector/Control-BG.png" />
+  <Texture Id="KSI2DirectionSelectorBorder" Path="assets/direction-selector/Control-BG-Border.png" />
+  <Texture Id="KSI2DirectionSelectorAxisBackground" Path="assets/direction-selector/Control-xyzAxis.png" />
+  <Texture Id="KSI2DirectionSelectorSurfaceBackground" Path="assets/direction-selector/Control-xyzSurface.png" />
+  <Texture Id="KSI2DirectionSelectorAxisDisabled" Path="assets/direction-selector/Control-xyzAxis-disabled.png" />
+  <Texture Id="KSI2DirectionSelectorSurfaceDisabled" Path="assets/direction-selector/Control-xyzSurface-disabled.png" />
+  <Texture Id="KSI2DirectionSelectorTicks" Path="assets/direction-selector/Control-ELE-ticks.png" />
+  <Texture Id="KSI2DirectionSelectorDirection" Path="assets/direction-selector/Control-ELE-direction.png" />
+  <Texture Id="KSI2SelectorPrograde" Path="assets/direction-selector/Flight-ICO-Prograde.png" />
+  <Texture Id="KSI2SelectorRetrograde" Path="assets/direction-selector/Flight-ICO-Retrograde.png" />
+  <Texture Id="KSI2SelectorRadialOut" Path="assets/direction-selector/Flight-ICO-RadialOut.png" />
+  <Texture Id="KSI2SelectorRadialIn" Path="assets/direction-selector/Flight-ICO-RadialIn.png" />
+  <Texture Id="KSI2SelectorNormal" Path="assets/direction-selector/Flight-ICO-Normal.png" />
+  <Texture Id="KSI2SelectorAntiNormal" Path="assets/direction-selector/Flight-ICO-AntiNormal.png" />
+  <Texture Id="KSI2SelectorUp" Path="assets/direction-selector/Flight-ICO-Up.png" />
+  <Texture Id="KSI2SelectorDown" Path="assets/direction-selector/Flight-ICO-Down.png" />
+  <Texture Id="KSI2SelectorNorth" Path="assets/direction-selector/Flight-ICO-North.png" />
+  <Texture Id="KSI2SelectorSouth" Path="assets/direction-selector/Flight-ICO-South.png" />
+  <Texture Id="KSI2SelectorArrow" Path="assets/direction-selector/Flight-ICO-Arrow.png" />
+  <Texture Id="KSI2DirectionSelectorShip" Path="assets/direction-selector/orientation_ship_D.png" />
+  <Texture Id="KSI2ModeStabilityAssist" Path="assets/direction-selector/ICO-FlightControl-Lock.png" />
+  <Texture Id="KSI2ModeControlsBackground" Path="assets/orbital-readout/Frame-6px-rad-fill_0.png" />
+  <Texture Id="KSI2ModeControlsBorder" Path="assets/orbital-readout/Frame-6px-rad-border_0.png" />
+  <Texture Id="KSI2ModeControlsBracket" Path="assets/orbital-readout/Frame-6px-rad-bracket-BB.png" />
+  <Texture Id="KSI2ModeManeuver" Path="assets/direction-selector/Flight-ICO-Maneuver.png" />
+  <Texture Id="KSI2ModeTarget" Path="assets/direction-selector/Flight-ICO-Target.png" />
+  <Texture Id="KSI2ModeAntiTarget" Path="assets/direction-selector/Flight-ICO-AntiTarget.png" />
+  <Texture Id="KSI2SelectorIconBorder" Path="assets/direction-selector/BG-ICO-Border.png" />
+  <Texture Id="KSI2SelectorButtonOutline" Path="assets/direction-selector/Button-Digital-Small-Outline.png" />
+  <Texture Id="KSI2SelectorButtonHover" Path="assets/direction-selector/Button-Digital-Small-Dot.png" />
+  <Texture Id="KSI2SelectorButtonSelected" Path="assets/direction-selector/Button-Digital-Small-Solid.png" />
+  <Texture Id="KSI2SelectorButtonDisabled" Path="assets/direction-selector/Button-Digital-Small-Disabled.png" />
+  <Texture Id="KSI2SelectorStateDisabled" Path="assets/direction-selector/ELE-State-Disabled-32x32.png" />
 </Assets>
