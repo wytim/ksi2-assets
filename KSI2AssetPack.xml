@@ -97,6 +97,64 @@
   <Sound Id="KSI2AltitudeModeSelect" SimSpeed="Ignore" ChannelId="Ui">
     <SoundFile Path="assets/sounds/AltitudeModeSelect.wav" TwoD="true" />
   </Sound>
+  <!-- KSI2 time controls -->
+  <Sound Id="KSI2TimePauseHover" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimePauseHover.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimePause" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimePause.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeUnpause" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeUnpause.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeModeHover" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeModeHover.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeUtToMet" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeUtToMet.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeMetToUt" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeMetToUt.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeWarpChange" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeWarpChange.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeWarpReturnToOne" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeWarpReturnToOne.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeWarpHover01" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeWarpHover01.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeWarpHover02" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeWarpHover02.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeWarpHover03" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeWarpHover03.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeWarpHover04" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeWarpHover04.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeWarpHover05" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeWarpHover05.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeWarpHover06" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeWarpHover06.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeWarpHover07" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeWarpHover07.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeWarpHover08" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeWarpHover08.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeWarpHover09" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeWarpHover09.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeWarpHover10" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeWarpHover10.wav" TwoD="true" />
+  </Sound>
+  <Sound Id="KSI2TimeWarpHover11" SimSpeed="Ignore" ChannelId="Ui">
+    <SoundFile Path="assets/sounds/TimeWarpHover11.wav" TwoD="true" />
+  </Sound>
 
   <Texture Id="KSI2DirectionSelectorBG" Path="assets/direction-selector/Control-BG.png" />
   <Texture Id="KSI2DirectionSelectorBorder" Path="assets/direction-selector/Control-BG-Border.png" />
@@ -131,4 +189,18 @@
   <Texture Id="KSI2SelectorButtonSelected" Path="assets/direction-selector/Button-Digital-Small-Solid.png" />
   <Texture Id="KSI2SelectorButtonDisabled" Path="assets/direction-selector/Button-Digital-Small-Disabled.png" />
   <Texture Id="KSI2SelectorStateDisabled" Path="assets/direction-selector/ELE-State-Disabled-32x32.png" />
+  <Texture Id="KSI2TimeClusterFill" Path="assets/time-selector/Frame-TimeCluster-Fill.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2TimeClusterBorder" Path="assets/time-selector/Frame-6px-rad-border.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2TimeClusterBracket" Path="assets/time-selector/Frame-6px-rad-bracket-BB.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2TimeClusterButtonFill" Path="assets/time-selector/Frame-6px-rad-fill.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2TimeClusterButtonOutline" Path="assets/time-selector/Button-Digital-Large-Outline.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2TimeClusterButtonOutlineDot" Path="assets/time-selector/Button-Digital-Large-Outline-Dot.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2TimeClusterPauseRest" Path="assets/time-selector/BG-TimeWarp-Pause-onRest.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2TimeClusterPause" Path="assets/time-selector/ICO-Time_Cluster-Pause.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2TimeClusterPlay" Path="assets/time-selector/ICO-Time_Cluster-Play.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2TimeClusterMet" Path="assets/time-selector/ELE-Time_Cluster-Option-1.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2TimeClusterUt" Path="assets/time-selector/ELE-Time_Cluster-Option-2.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2TimeClusterWarpLeft" Path="assets/time-selector/ELE-Time_Cluster-Warp-Left.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2TimeClusterWarpMid" Path="assets/time-selector/ELE-Time_Cluster-Warp-Mid.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
+  <Texture Id="KSI2TimeClusterWarpRight" Path="assets/time-selector/ELE-Time_Cluster-Warp-Right.png"><Manifest><MipMaps>false</MipMaps></Manifest></Texture>
 </Assets>
